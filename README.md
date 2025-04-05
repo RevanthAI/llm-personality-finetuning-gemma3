@@ -85,7 +85,7 @@ Follow the notebooks in the `notebooks/` directory in numerical order.
 **Note:** Steps 1-3 can likely be run on a local machine (GPU preferred). Steps 4 and 5 are best run on **Google Colab** 
 
 1.  **Generate Questions (`generate_questions.ipynb`)**
-    *   **What it does:** Uses Llama 3.2 3B (via Unsloth/Transformers) and the prompts in `prompts/` to generate diverse questions (conversational, coding, help).
+    *   **What it does:** Uses Llama 3.2 3B (via Transformers) and the prompts in `prompts/` to generate diverse questions (conversational, coding, help).
     *   **Output:** Saves question files (e.g., `conversational_questions.csv`, `coding_questions.csv`, etc.) to the `data/` directory.
 
 2.  **Generate Sparky's Responses (`generate_responses.ipynb`)**
