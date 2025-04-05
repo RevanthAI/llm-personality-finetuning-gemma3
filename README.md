@@ -44,7 +44,7 @@ Watch a short interaction with the fine-tuned Sparky model:
 
 ---
 ## 📂 Repository Structure
-
+```plaintext
 SparkyAI-Finetune/
 │
 ├── assets/ # Images and videos for README
@@ -70,6 +70,7 @@ SparkyAI-Finetune/
 │
 ├── .gitignore # Specifies intentionally untracked files (like large data)
 ├── README.md # This file!
+```
 
 *   **`notebooks/`**: Contains the step-by-step Jupyter notebooks for the entire process.
 *   **`prompts/`**: Holds the detailed system prompts used to guide the LLMs during data generation and scoring.
