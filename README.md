@@ -3,8 +3,8 @@
 This repository contains the code and resources for the Medium blog post "[**Building Sparky: My Journey of Creating a Hilariously Sarcastic AI with LLMs](https://medium.com/@Revanth_Regeti/building-sparky-my-journey-of-creating-a-hilariously-sarcastic-ai-with-llms-0e9e52cb715d)**" detailing the journey of creating "Sparky" - a Large Language Model (LLM) fine-tuned to have a witty, sarcastic, and hilariously superior personality.
 
 We explore an end-to-end pipeline using accessible tools:
-1.  **Generating diverse questions** using Llama 3.1 8B.
-2.  **Crafting responses** in Sparky's persona, again with Llama 3.1 8B.
+1.  **Generating diverse questions** using Llama 3.2 2B.
+2.  **Crafting responses** in Sparky's persona, again with Llama 3.2 2B.
 3.  **Filtering for quality** using an LLM-as-a-Judge approach.
 4.  **Fine-tuning** Google's Gemma 3 4B model using Unsloth for peak efficiency on consumer hardware.
 5.  **Demonstrating** the final model with a Streamlit app.
@@ -16,18 +16,18 @@ We explore an end-to-end pipeline using accessible tools:
 Check out Sparky's unique brand of helpfulness:
 
 **Example 1:**
+
 ![Example of Sparky answering a simple question](assets/sparky_example_1.png)
 
 **Example 2:**
+
 ![Example of Sparky "helping" with code](assets/sparky_example_2.png)
 
-**Video Demo:**
+***Video Demo:**
 
 Watch a short interaction with the fine-tuned Sparky model:
-<video src="assets/video.mp4" width="720" controls>
-  Your browser does not support the video tag. Click <a href="assets/video.mp4">here</a> to watch the video.
-</video>
 
+![Sparky Interaction Demo](assets/sparky.gif)
 
 ---
 
